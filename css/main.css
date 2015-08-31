@@ -1,4 +1,4 @@
-/* Header Starts Here ----------------------------------------   */
+/* Header Starts Here ------------------------------------------------------- */
 header{
 	background-color: #4d98a4;
 }
@@ -29,6 +29,7 @@ header a:hover{
 	color: #fff;
 	text-decoration: none;
 }
+/* Cover Starts Here -------------------------------------------------------- */
 .cover{
 	background-image: url(../img/cover.jpg);
 	background-position: center;
@@ -63,4 +64,50 @@ header a:hover{
 .cover .btn-read:focus{
 	background-color: transparent;
 	color: #fff;
+}
+/* Content Starts Here ------------------------------------------------------ */
+.content{
+	text-align: center;
+	color: #4c505d;
+	font-family: sans-serif;
+}
+.content h3{
+	margin: 0 22%;
+	padding-top: 9%;
+	padding-bottom: 4.5%;
+	font-weight: normal;
+	font-size: 30px;
+}
+.content .container p{
+	margin: 0 10%;
+	font-size: 14px;
+	padding-bottom: 7.5%;
+}
+.content ul{
+
+}
+.content li{
+	display: inline-block;
+	text-align: center;
+	list-style-type: none;
+	margin-bottom: 80px;
+}
+.basket,
+.earth,
+.suitcase{
+	background-repeat: no-repeat;
+	background-image: url(../img/sprite.png);
+	width: 60px;
+	height: 55px;
+
+}
+.basket{
+	background-position: 0 0;
+}
+.earth{
+	margin: 0 64px;
+	background-position: 0 -55px;
+}
+.suitcase{
+	background-position: 0 -110px;
 }
