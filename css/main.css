@@ -147,3 +147,44 @@ header a:hover{
 	font-size: 18px;
 	margin: 0 10%;
 }
+/* Map Starts Here ---------------------------------------------------------- */
+.map{
+	background-image: url(../img/map.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: #4c505d;
+	text-align: center;
+}
+.map ul{
+	background-color: rgba(255,255,255,0.6);
+	width: 435px;
+	height: 435px;
+	border-radius: 218px;
+	margin: 5% auto;
+	padding: 0;
+	box-shadow: 2px 2px 10px 5px #68615a;
+}
+.map li{
+	margin-bottom: 15px;
+	list-style-type: none;
+}
+.map .name{
+	margin-top: 25%;
+}
+.map .name,
+.map .email{
+	width: 278px;
+	height: 35px;
+}
+.map .message{
+	width: 278px;
+	height: 80px;
+}
+.map .btn-tick{
+	background-repeat: no-repeat;
+	background-image: url(../img/sprite.png);
+	width: 66px;
+  height: 68px;
+  background-position: -62px 0;
+}
