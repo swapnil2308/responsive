@@ -1,0 +1,34 @@
+
+@media screen and (max-width: 991px) {
+  header{
+    display: block;
+  }
+}
+@media screen and (max-width: 768px) {
+  header li{
+    display: block;
+  }
+  .slash{
+    display: none;
+  }
+}
+@media screen and (max-width: 767px){
+  header{
+   background-color: #000;
+  }
+  header ul{
+    padding-left: 0;
+  }
+  header .pull{
+    float: left!important;
+  }
+}
+@media screen and (max-width: 351px){
+  header .pull li{
+    display: block;
+    line-height: 2em;
+  }
+  header .pull .slash{
+    display: none;
+  }
+}
