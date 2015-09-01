@@ -29,4 +29,20 @@
   header .pull .slash{
     display: none;
   }
+  .cover{
+    width: 351px;
+  }
+  .cover h1{
+    text-align: center;
+    width: 250px;
+    font-size: 30px;
+  }
+  .cover .btn-read{
+    margin: 0 auto;
+    font-size: 20px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-bottom: 160px;
+  }
 }
+

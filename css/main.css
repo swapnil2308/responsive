@@ -19,9 +19,9 @@ header ul .slash{
   transform: rotate(25deg);
 }
 header a{
-	color: #f0f0f0;
-	font-size: 18px;
-	font-family: 'Open Sans Condensed:300', sans-serif;
+  color: #f0f0f0;
+  font-size: 18px;
+  font-family: 'Open Sans Condensed:300', sans-serif;
   color: #f0f0f0;
   font-size: 18px;
   font-family: 'Open Sans Condensed', sans-serif;
@@ -43,13 +43,13 @@ header a:hover{
   color: #f0f0f0;
 }
 .cover h1{
-  width: 36%;
+  width: 341px;
   margin: 0 auto;
-  padding-top: 13%;
+  padding-top: 128px;
   text-transform: uppercase;
   font-family: 'Open Sans Condensed';
   font-size: 44px;
-  padding-bottom: 3%;
+  padding-bottom: 44px;
 }
 .cover .btn-read{
   font-family: sans-serif;
@@ -57,7 +57,7 @@ header a:hover{
   border: 2px solid;
   background-color: transparent;
   border-radius: 10px;
-  margin-bottom: 21%;
+  margin-bottom: 160px;
 }
 .cover a{
   padding: 10px 40px;
