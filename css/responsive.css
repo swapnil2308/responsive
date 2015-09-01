@@ -40,8 +40,6 @@
   .content .content-icons .earth{
     margin: 10px 0;
   }
-}
-@media screen and (max-width: 351px){
   header .pull li{
     display: block;
     line-height: 2em;
@@ -49,9 +47,8 @@
   header .pull .slash{
     display: none;
   }
-  .cover{
-    width: 351px;
-  }
+}
+@media screen and (max-width: 479px){
   .cover h1{
     text-align: center;
     width: 250px;
