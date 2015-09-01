@@ -33,38 +33,39 @@ header a:hover{
 .pull{
   float: right;
 }
+/* Cover Starts Here ------------------------------------------------------- */
 .cover{
-	background-image: url(../img/cover.jpg);
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	text-align: center;
-	color: #f0f0f0;
+  background-image: url(../img/cover.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #f0f0f0;
 }
 .cover h1{
-	width: 36%;
-	margin: 0 auto;
-	padding-top: 13%;
-	text-transform: uppercase;
-	font-family: 'Open Sans Condensed';
-	font-size: 44px;
-	padding-bottom: 3%;
+  width: 36%;
+  margin: 0 auto;
+  padding-top: 13%;
+  text-transform: uppercase;
+  font-family: 'Open Sans Condensed';
+  font-size: 44px;
+  padding-bottom: 3%;
 }
 .cover .btn-read{
-	font-family: sans-serif;
-	font-size: 30px;
-	border: 2px solid;
-	background-color: transparent;
-	border-radius: 10px;
-	margin-bottom: 21%;
+  font-family: sans-serif;
+  font-size: 30px;
+  border: 2px solid;
+  background-color: transparent;
+  border-radius: 10px;
+  margin-bottom: 21%;
 }
 .cover a{
-	padding: 10px 40px;
+  padding: 10px 40px;
 }
 .cover .btn-read:hover{
-	color: #f0ff00;
+  color: #f0ff00;
 }
 .cover .btn-read:focus{
-	background-color: transparent;
-	color: #fff;
+  background-color: transparent;
+  color: #fff;
 }
