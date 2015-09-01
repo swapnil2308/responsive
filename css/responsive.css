@@ -1,7 +1,9 @@
-
 @media screen and (max-width: 991px) {
   header{
     display: block;
+  }
+  .content h3{
+    font-size: 20px;
   }
 }
 @media screen and (max-width: 767px){
@@ -20,6 +22,24 @@
   header .pull{
     float: left!important;
   }
+  .content h3{
+    margin: 0 0;
+    text-align: left;
+    font-size: 15px;
+    font-weight: bolder;
+  }
+  .content .container p{
+    margin: 0 0;
+    text-align: left;
+    font-size: 12px;
+  }
+  .content li{
+    text-align: left;
+    margin: 10px 10px;
+  }
+  .content .content-icons .earth{
+    margin: 10px 0;
+  }
 }
 @media screen and (max-width: 351px){
   header .pull li{
@@ -28,5 +48,28 @@
   }
   header .pull .slash{
     display: none;
+  }
+  .cover{
+    width: 351px;
+  }
+  .cover h1{
+    text-align: center;
+    width: 250px;
+    font-size: 30px;
+  }
+  .cover .btn-read{
+    margin: 0 auto;
+    font-size: 20px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-bottom: 160px;
+  }
+   .content li{
+    text-align: left;
+    display: block;
+    margin: 10px 0;
+  }
+  .content .content-icons .earth{
+    margin: 10px 0;
   }
 }
