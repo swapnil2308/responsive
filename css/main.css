@@ -1,33 +1,37 @@
 /* Header Starts Here ------------------------------------------------------- */
 header{
-	background-color: #4d98a4;
+  background-color: #4d98a4;
 }
 .logo{
-	font-family: 'Cherry Swash', sans-serif;
-	font-size: 40px;
+  font-family: 'Cherry Swash', sans-serif;
+  font-size: 40px;
 }
 header ul{
-	margin-top: 20px;
+  margin-top: 20px;
 }
 header ul li{
-	list-style-type: none;
-	display: inline-block;
-	margin: 0 10px;
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 10px;
 }
 header ul .slash{
-	border-right: 1px solid white;
-	transform: rotate(25deg);
-
+  border-right: 1px solid white;
+  transform: rotate(25deg);
 }
 header a{
 	color: #f0f0f0;
 	font-size: 18px;
 	font-family: 'Open Sans Condensed:300', sans-serif;
-
+  color: #f0f0f0;
+  font-size: 18px;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 header a:hover{
-	color: #fff;
-	text-decoration: none;
+  color: #fff;
+  text-decoration: none;
+}
+.pull{
+  float: right;
 }
 /* Cover Starts Here -------------------------------------------------------- */
 .cover{
@@ -83,9 +87,6 @@ header a:hover{
 	font-size: 14px;
 	padding-bottom: 7.5%;
 }
-.content ul{
-
-}
 .content li{
 	display: inline-block;
 	text-align: center;
@@ -99,7 +100,6 @@ header a:hover{
 	background-image: url(../img/sprite.png);
 	width: 60px;
 	height: 55px;
-
 }
 .basket{
 	background-position: 0 0;
