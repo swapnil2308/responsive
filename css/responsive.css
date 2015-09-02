@@ -1,7 +1,16 @@
-
 @media screen and (max-width: 991px) {
   header{
     display: block;
+  }
+  header li a{
+    font-size: 12px;
+  }
+  .content h3{
+    font-size: 20px;
+  }
+  .member p{
+    font-size: 14px;
+    float: left;
   }
 }
 @media screen and (max-width: 767px){
@@ -15,18 +24,62 @@
    background-color: #000;
   }
   header ul{
+    float: left;
     padding-left: 0;
   }
   header .pull{
     float: left!important;
   }
+  .content h3{
+    margin: 0 0;
+    text-align: left;
+    font-size: 15px;
+    font-weight: bolder;
+  }
+  .content .container p{
+    margin: 0 0;
+    text-align: left;
+    font-size: 12px;
+  }
+  .content li{
+    text-align: left;
+    margin: 10px 10px;
+  }
+  .content .content-icons .earth{
+    margin: 10px 0;
+  }
 }
-@media screen and (max-width: 351px){
+@media screen and (max-width: 479px){
   header .pull li{
     display: block;
     line-height: 2em;
   }
   header .pull .slash{
+    display: none;
+  }
+  .cover h1{
+    text-align: center;
+    width: 250px;
+    font-size: 30px;
+  }
+  .cover .btn-read{
+    margin: 0 auto;
+    font-size: 20px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-bottom: 160px;
+  }
+   .content li{
+    text-align: left;
+    margin: 10px 0;
+  }
+  .content .content-icons .earth{
+    margin: 10px 20px;
+  }
+  .member .photoName{
+    margin-top: 43px;
+  }
+  .member .quote{
     display: none;
   }
 }
