@@ -2,9 +2,6 @@
   header{
     display: block;
   }
-  header .slash{
-    display: none;
-  }
   header li a{
     font-size: 12px;
   }
@@ -27,9 +24,10 @@
    background-color: #000;
   }
   header ul{
+    float: left;
     padding-left: 0;
   }
-  header .pull-custom{
+  header .pull{
     float: left!important;
   }
   .content h3{
@@ -52,7 +50,7 @@
   }
 }
 @media screen and (max-width: 479px){
-    header .pull li{
+  header .pull li{
     display: block;
     line-height: 2em;
   }
@@ -73,11 +71,15 @@
   }
    .content li{
     text-align: left;
-    display: block;
     margin: 10px 0;
   }
   .content .content-icons .earth{
-    margin: 10px 0;
+    margin: 10px 20px;
+  }
+  .member .photoName{
+    margin-top: 43px;
+  }
+  .member .quote{
+    display: none;
   }
 }
-.member
